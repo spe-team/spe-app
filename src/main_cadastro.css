@@ -53,4 +53,11 @@ html, #all {
 
 #button {
     padding-top: 25px;
+    margin: 0;
+}
+
+#conta {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    text-align: center;
 }

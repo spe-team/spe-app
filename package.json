@@ -1,0 +1,16 @@
+{
+  "name": "spe-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/spe-team/spe-app.git",
+  "author": "Mirelle Silva <mirellepollyane@gmail.com>",
+  "collaborators": [
+    "Mariana Marques <marianadacunhamarques@gmail.com>",
+    "Mateus Garcia <mateusgarcpaiva@gmail.com>"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html login.html cadastro.html sms.html termos.html",
+    "build": "parcel build index.html login.html cadastro.html sms.html termos.html"
+  }
+}

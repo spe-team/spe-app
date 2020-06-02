@@ -22,7 +22,7 @@ html, #all {
     padding: 20px;
 }
 
-#form-name, #form-email, #form-phone, #form-password {
+#form-sms {
     font-family: 'Quicksand', sans-serif;
     font-size: 18px;
 }
@@ -31,7 +31,7 @@ html, #all {
     padding: 20px;
 }
 
-#name, #email, #phone, #password {
+#sms {
     background-color: rgb(243, 242, 242);
     border-radius: 90px;
     border: none;
@@ -54,10 +54,4 @@ html, #all {
 #button {
     padding-top: 25px;
     margin: 0;
-}
-
-#conta {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 14px;
-    text-align: center;
 }

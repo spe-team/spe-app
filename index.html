@@ -3,12 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- CSS Custom Style -->
     <link rel="stylesheet" href="src/main.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.png" sizes="11x16" />
+
     <title>SPE</title>
 </head>
 <body>
-    <img src="img/logo.png" id="logo"/>
+    <!-- Intro -->
+    <div id="carousel_intro" class="carousel slide" data-ride="carousel">
+        
+        <div class="carousel-inner d-flex">
+          <div class="carousel-item active">
+            <img src="img/logo.png" id="logo"/>
+            <div id="intro_title" class="carousel-caption">
+                <h5>Arraste para o lado e conheça a Spe</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div id="intro_explanation_img">
+              <img src="img/logo.png" height="196" width="106"/>
+            </div>
+            <div id="presentation">
+              <h4>Que bom ter você por aqui!</h4>
+              <p>Já imaginou poder ir ao seu lugar favorito, sem ter que se preocupar com o tempo gasto na fila e com o risco de contaminação?</p>
+            </div>
+            <button id="btn_app" class="btn">Conheça</button>
+          </div>
+          <div class="carousel-item">
+            <div id="intro_explanation_img">
+              <img src="img/intro_img1.png" height="124" width="124"/>
+            </div>
+            <div id="intro_explanation" class="carousel-caption">
+                <h5>Evite algomerações com Spe</h5>
+                <ul id="explanation_plus">
+                  <li>
+                    <img src="img/intro_img2.png" alt="">
+                    <p>Levamos você ao seu lugar favorito</p>
+                  </li>
+                  <li>
+                    <img src="img/intro_img3.png" alt="">
+                    <p>Ajudamos você a evitar filas</p>
+                  </li>
+                  <li>
+                    <img src="img/intro_img4.png" alt="">
+                    <p>Ganhe 15% na primeira compra</p>
+                  </li>
+                  <li>
+                    <img src="img/intro_img5.png" alt="">
+                    <p>Spe Rewards: Quanto mais você utiliza, mais descontos você recebe</p>
+                  </li>
+                </ul>
+            </div>
+            <button id="btn_start" class="btn">Começar</button>
+            <p class="intro_p">Já tem uma conta? <a href="">Entre aqui</a></p>
+          </div>
+        </div>
+        <a class="carousel-control-next" href="#carousel_intro" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+        
+   
+
 
     <script>window.confirm("Permitir que o app SPE acesse o local deste dispositivo?");</script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>

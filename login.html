@@ -9,55 +9,49 @@
     
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    
-    <!-- CSS custom style -->
-    <link rel="stylesheet" href="src/main_cadastro.css">
+
+    <!-- CSS Custom Style -->
+    <link rel="stylesheet" href="src/main_login.css">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    
     <title>SPE</title>
 </head>
 <body>
     <div class="container-fluid" id="all">
         <div class="row">
             <div class="col-md-12">
-                <h1 id="title"><b>Cadastre-se</b></h1>
+                <h1 id="title"><b>Entre na sua conta</b></h1>
             </div>
         </div>
-        <div class="row" id="cadastro">
+        <div class="row" id="login">
             <div class="col-md-12">
-                <form role="form" id="form-cadastro">
-                    <div class="form-group">
-                        <label id="form-name" for="name">Nome</label>
-                        <input type="text" name="name" id="name" class="form-control" required/>
-                    </div>
-
+                <form role="form" id="form-login">
                     <div class="form-group">
                         <label id="form-email" for="email">E-mail</label>
                         <input type="email" name="email" id="email" class="form-control" required/>
                     </div>
-
-                    <div class="form-group">
-                        <label id="form-phone" for="number">Celular</label>
-                        <input type="number" name="phone" id="phone" class="form-control" placeholder="(xx) xxxxx-xxxxx"/>
-                    </div>
                     
                     <div class="form-group">
-                        <label id="form-password" for="password">Crie uma senha</label>
+                        <label id="form-password" for="password">Senha</label>
                         <input type="password" name="password" id="password" class="form-control" required/>
                     </div>
 
                     <div class="form-group" id="button">
-                        <button type="submit" id="submit" class="submit-button" href="termos.html">
-                          Continuar
+                        <button redirectTo="#" type="submit" id="entry" class="submit-button">
+                          Entrar
                         </button>
                       </div>
                 </form>
 
                 <div class="row">
-                    <div class="col-md-12">
-                        <p id="conta">
-                        <b>Já tem uma conta?</b> <a href="login.html">Entre aqui</a>
+                    <div id="conta" class="col-md-12">
+                        <p>
+                        <b>Ainda não tem uma conta?</b>
+                        </p>
+                        <p>
+                        <a href="cadastro.html">Entre aqui</a>
                         </p>
                     </div>
                 </div>

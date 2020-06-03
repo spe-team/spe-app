@@ -1,15 +1,13 @@
-/* Global */
-
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
 
-html, #all {
-    background-color: #ffffff;
-}    
+#all {
+    margin-top: 100px;
+}
 
-#cadastro {
+#login {
     animation-name: fadein;
     animation-duration: 2s;
 }
@@ -21,23 +19,23 @@ html, #all {
     text-align: center;
     padding: 20px;
 }
-
-#form-name, #form-email, #form-phone, #form-password {
+#form-email, #form-password {
     font-family: 'Quicksand', sans-serif;
     font-size: 18px;
 }
 
-#form-cadastro {
+#form-login {
     padding: 20px;
 }
 
 #name, #email, #phone, #password {
-    background-color: rgb(243, 242, 242);
+    background-color: #E5E5E5;
     border-radius: 90px;
     border: none;
+    height: 60px;
 }
 
-#submit {
+#entry {
     display: block;
     margin: auto;
     background-color: rgba(63, 214, 102, 0.8);
@@ -45,6 +43,7 @@ html, #all {
     border: none;
     font-family: 'Quicksand', bold, sans-serif;
     color: black;
+    font-weight: 600;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 70px;
@@ -53,11 +52,16 @@ html, #all {
 
 #button {
     padding-top: 25px;
-    margin: 0;
+    margin: 80px 0 15px 0;
 }
 
 #conta {
     font-family: 'Quicksand', sans-serif;
     font-size: 14px;
     text-align: center;
+}
+
+#conta p {
+    margin: 0;
+    padding: 0;
 }

@@ -13,9 +13,5 @@
   "scripts": {
     "dev": "parcel index.html login.html cadastro.html sms.html termos.html",
     "build": "parcel build index.html login.html cadastro.html sms.html termos.html"
-  },
-  "devDependencies": {
-    "parcel-bundler": "^1.12.4"
-  },
-  "dependencies": {}
+  }
 }

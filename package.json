@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/spe-team/spe-app.git",
-  "author": "Spe",
+  "author": "Mirelle Silva <mirellepollyane@gmail.com>",
   "collaborators": [
-    "Mirelle Silva <mirellepollyane@gmail.com>",
     "Mariana Marques <marianadacunhamarques@gmail.com>",
     "Mateus Garcia <mateusgarcpaiva@gmail.com>"
   ],

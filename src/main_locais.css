@@ -1,0 +1,43 @@
+/* Global */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* main */
+main {
+    padding: 10px;
+}
+
+/* Botão de retornar */
+a.btn-return {
+    font-size: 30px;
+}
+
+/* Inputs de localização */
+.input-localizacao {
+    background: rgba(63, 227, 102, 0.7);
+    border-radius: 50px;
+    border: none;
+}
+
+/* menu opções */
+#opcoes {
+    background: #C4C4C4;
+    border-radius: 20px;
+    height: fit-content;
+    min-height: 360px;
+}
+
+#opcoes a:not(:last-child) {
+    border-bottom: black 1px solid;
+}

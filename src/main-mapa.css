@@ -20,7 +20,6 @@ body {
 #nome_endereco {
     border-radius: 70px;
     height: 52px;
-    outline: 0;
     background: #3FE366;
     font-size: 18px;
     border: none;
@@ -31,6 +30,12 @@ body {
     color: #000000a9;
 }
 
+input:focus {
+    box-shadow: 0 0 0 0 !important;
+    border: 0 none !important;
+    outline: 0 !important;
+} 
+
 .cor-input{
     background: #3FE366;
     opacity: 0.85;
@@ -38,6 +43,7 @@ body {
     font-weight: bold;
     border-radius: 70px;
 }
+
 
 #intro {
     background: url(../img/map.png) center no-repeat;

@@ -41,3 +41,19 @@ a.btn-return {
 #opcoes a:not(:last-child) {
     border-bottom: black 1px solid;
 }
+
+.proximidade {
+    font-size: 12px;
+}
+
+/* Botão de enviar */
+#btn_start {
+    background-color: #3FE366;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    width: 70%;
+    height: 60px;
+    border-radius: 40px;
+    padding-top: 10px;
+}

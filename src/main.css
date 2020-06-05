@@ -98,6 +98,15 @@ body {
     font-weight: 500;
 }
 
+#intro_explanation2.carousel-caption{
+    position: absolute;
+    top: 50px;
+    height: 100px;
+    margin: 0 auto;
+    color: black;
+    font-weight: 500;
+}
+
 .carousel-item {
     height: 100vh;
     padding-left: 10px;

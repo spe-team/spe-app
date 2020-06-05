@@ -8,7 +8,7 @@ Com uma equipe de 11 pessoas divididas entre 4 stacks (hacker, hispster, hustler
 
 ## Fique à vontade para contribuir!
 
-### Passos para contribuir com o código do querodigitalizar.com.br:
+### Passos para contribuir com o código do spe-app.netlify.app:
 
 1. $ git clone https://github.com/spe-team/spe-app.git
 
